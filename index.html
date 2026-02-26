@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Drive Folder Embed</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f5f7fb;
+      }
+
+      main {
+        width: min(1100px, 95vw);
+        background: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      header {
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid #e6eaf2;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0.4rem 0 0;
+        color: #4a5568;
+      }
+
+      iframe {
+        width: 100%;
+        height: 78vh;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Google Drive Folder</h1>
+        <p>Embedded folder view ready for GitHub Pages and Google Sites.</p>
+      </header>
+      <iframe
+        title="Google Drive Embedded Folder"
+        src="https://drive.google.com/embeddedfolderview?id=16PoRWncET7yQaJ5Un_Z95SPgbpXLxx5v#list"
+        loading="lazy"
+        allowfullscreen
+      ></iframe>
+    </main>
+  </body>
+</html>
